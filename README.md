@@ -182,7 +182,7 @@ On 2026-10-23, both DGX Spark GB10 nodes used capacity mode, remote Engram and e
 
 | Check | Result | Conditions |
 |---|---|---|
-| Step p50 change vs sync | −0.9 to −3.9 % | Matched synchronous/async comparison: short and 32K each three repeats, 150K two, concurrent 32K one group of three; temperature 1 and 1,500-token budgets. |
+| Step p50 change vs sync | −1.0 to −4.0 % | Matched synchronous/async comparison: short and 32K each three repeats, 150K two, concurrent 32K one group of three; temperature 1 and 1,500-token budgets. |
 | Post-switch short requests | TTFT 0.37 / 0.38 s; step p50 38.4 / 38.5 ms | Production after short warm-up; concurrency 1, two repeats. |
 | First post-switch 32K request | TTFT 16.24 s; step p50 40.5 ms | Production first long request; concurrency 1, one run, lazy long-prefill loads. |
 | Production round counters | 2,048 ok; 0 failed; 0 watchdog fires; 0 respawns | One production counter snapshot across the post-switch checks. |
