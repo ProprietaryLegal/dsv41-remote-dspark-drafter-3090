@@ -1,0 +1,34 @@
+PLI Labs — dsv41-remote-dspark-drafter-3090
+Copyright 2026 Proprietary Legal Intelligence LLC
+
+Original PLI Labs code is licensed under Apache-2.0.
+
+Third-party components in the code tree:
+- vLLM dispatch overlay: code/dspark/spark/overlay/vllm/v1/worker/gpu/spec_decode/__init__.py.
+  Capture overlay: code/dspark/capture/speculator.py.
+  Apache-2.0; Copyright contributors to the vLLM project, retained in SPDX headers.
+  Licence file in this package: LICENSES/Apache-2.0.txt.
+  Upstream licence file: https://github.com/vllm-project/vllm/blob/main/LICENSE
+- vllm_exl3_moe plugin wrappers: code/dspark/worker/exl3/plan.py, bank.py,
+  kernels.py, hostcopy.py and exl3_ref.py, identified as Apache-2.0 in
+  code/dspark/worker/exl3/VENDORED.md. That provenance file identifies the image
+  copy and original file digests. Image lineage: HeNryous and sudoingX.
+  Licence file in this package: LICENSES/Apache-2.0.txt. The inspected plugin
+  sources retain Apache-2.0 SPDX declarations; no separate plugin NOTICE was
+  present in the supplied image-source copy.
+  exl3_ref.py also records derivation from exllamav3 MIT source, covered by
+  LICENSES/exllamav3-MIT.txt.
+- exllamav3 patch: code/dspark/worker/exl3/exllamav3_facc.patch modifies EXL3
+  accumulation and the build script. exllamav3 is MIT, credited to turboderp.
+  Upstream licence file: https://github.com/turboderp-org/exllamav3/blob/master/LICENSE
+  Licence file in this package: LICENSES/exllamav3-MIT.txt, copied from the
+  extension revision identified by VENDORED.md. The installed extension is a
+  dependency, not a bundled binary.
+
+No separate LICENSE, NOTICE or COPYING file was present under the staged code
+tree. The applicable licence texts are supplied in LICENSES. Source files retain
+their SPDX and attribution notices. Third-party
+material retains its original licence.
+The optional donor build tools and donor digest catalogue reference external
+sources; those sources and their binaries are not vendored into this tree.
+DeepSeek supplies the model and DSpark drafter; no model files are distributed.
