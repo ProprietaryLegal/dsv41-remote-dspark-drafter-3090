@@ -10,6 +10,13 @@ Move DSpark drafting from two DGX Spark nodes to an x86 RTX 3090 worker, preserv
 
 <!-- pli:blurb:end -->
 
+<!-- pli:update:2026-10-27:start -->
+
+**Update 2026-10-27:** the full DSV41 source is now public — [dsv41-offload](https://github.com/ProprietaryLegal/dsv41-offload) (every component; `production`, `main` and per-experiment `lane/*` branches), with focused repos for the [measurement harness](https://github.com/ProprietaryLegal/dsv41-window-harness) and [sampled drafting](https://github.com/ProprietaryLegal/dsv41-sampled-drafting). Status and lessons: [2026-10-27 post](https://github.com/ProprietaryLegal/pli-labs/blob/main/research/dgx-spark-offload/2026-10-27-status-and-code.md).
+
+<!-- pli:update:2026-10-27:end -->
+
+
 ## Status
 
 2026-10-23 — production: one-card RTX 3090 worker, capacity mode, remote Engram, expanded KV and async process-proxy rounds; TP2 promotion is pending.
