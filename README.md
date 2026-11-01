@@ -2,7 +2,7 @@
 
 Move DSpark drafting from two DGX Spark nodes to an x86 RTX 3090 worker, preserving target-side verification. Capacity mode removes the local drafter and makes room for a larger target KV pool; the production configuration now also uses async rounds.
 
-**Hugging Face:** [Card and files](https://huggingface.co/ProprietaryLegal/dsv41-remote-dspark-drafter-3090) · **Stack overview:** [GitHub](https://github.com/ProprietaryLegal/DeepSeek-V4.1-Flash-2xDGX-Spark-x86-offload) · **Collection:** [All entries](https://huggingface.co/collections/ProprietaryLegal/deepseek-v41-flash-on-2x-dgx-spark-x86-offload-6adab604a517b426ded3916e)
+**Hugging Face:** [Card and files](https://huggingface.co/ProprietaryLegal/dsv41-remote-dspark-drafter-3090) · **DGX sPLIce:** [GitHub](https://github.com/ProprietaryLegal/DGX-sPLIce-DeepSeek-V4.1-Flash-2xDGX-Spark-2xRTX3090-drafter-x86-offload) · **Collection:** [All entries](https://huggingface.co/collections/ProprietaryLegal/deepseek-v41-flash-on-2x-dgx-spark-x86-offload-6adab604a517b426ded3916e)
 
 <!-- pli:blurb:start -->
 
@@ -292,7 +292,7 @@ Our code is Apache-2.0. The copied `vllm_exl3_moe` plugin wrappers are Apache-2.
 - dsv41-longctx-bench-tools: [GitHub](https://github.com/ProprietaryLegal/dsv41-longctx-bench-tools) · [Hugging Face](https://huggingface.co/ProprietaryLegal/dsv41-longctx-bench-tools).
 - dsv41-native-1017-drafter-sm86: [GitHub](https://github.com/ProprietaryLegal/dsv41-native-1017-drafter-sm86) · [Hugging Face](https://huggingface.co/ProprietaryLegal/dsv41-native-1017-drafter-sm86).
 - dsv41-spark-offload-findings: [GitHub](https://github.com/ProprietaryLegal/dsv41-spark-offload-findings) · [Hugging Face](https://huggingface.co/ProprietaryLegal/dsv41-spark-offload-findings).
-- DeepSeek-V4.1-Flash-2xDGX-Spark-x86-offload: [GitHub](https://github.com/ProprietaryLegal/DeepSeek-V4.1-Flash-2xDGX-Spark-x86-offload) · [Hugging Face](https://huggingface.co/ProprietaryLegal/DeepSeek-V4.1-Flash-2xDGX-Spark-x86-offload).
+- DeepSeek-V4.1-Flash-2xDGX-Spark-x86-offload: [GitHub](https://github.com/ProprietaryLegal/DGX-sPLIce-DeepSeek-V4.1-Flash-2xDGX-Spark-2xRTX3090-drafter-x86-offload) · [Hugging Face](https://huggingface.co/ProprietaryLegal/DeepSeek-V4.1-Flash-2xDGX-Spark-x86-offload).
 - dsv41-exact-acceptance-ceiling: [GitHub](https://github.com/ProprietaryLegal/dsv41-exact-acceptance-ceiling) · [Hugging Face](https://huggingface.co/ProprietaryLegal/dsv41-exact-acceptance-ceiling).
 - Image forks: [HeNryous lineage](https://github.com/ProprietaryLegal/deepseek-v41-1017-dgx-spark) · [sudoingX lineage](https://github.com/ProprietaryLegal/dgx-spark-deepseek-v41).
 - [Research hub](https://github.com/ProprietaryLegal/pli-labs/tree/main/research/dgx-spark-offload) · [Hugging Face collection](https://huggingface.co/collections/ProprietaryLegal/deepseek-v41-flash-on-2x-dgx-spark-x86-offload-6adab604a517b426ded3916e).
